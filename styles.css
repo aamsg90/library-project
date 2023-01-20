@@ -1,6 +1,6 @@
 .body {
   height: 1024px;
-  
+  background-color: #d9d9d9;
 }
 
 .navbar {
@@ -9,7 +9,6 @@
   position: sticky;
   display: flex;
   top: 0;
-
 }
 
 .navbar__container {
@@ -67,7 +66,13 @@
   width: 125px;
   text-decoration: none;
   height: 100%;
-  transition: all 2s ease;
+  transition: all 0.5s ease;
+}
+
+/* testing hover effect */
+.navbar__links:hover{
+  color: red;
+  text-decoration: #036DE9 underline;
 }
 
 .nav-search {
@@ -99,39 +104,36 @@
   height: 483px;
 }
 
-.home__bottom{
-display: flex;
-background-color: #D9D9D9;
-height: 492px;
-
+.home__bottom {
+  display: flex;
+  background-color: #d9d9d9;
+  height: 492px;
 }
 
-.description{
-    font-family: 'Lemonada';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 64px;
-    margin-left: 20%;
-    inline-size: 500px;
-
+.description {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 64px;
+  margin-left: 20%;
+  inline-size: 500px;
 }
-.home__text{
-inline-size: 500px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
+.home__text {
+  inline-size: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 
-/* margin-left: 20%; */
-
+  /* margin-left: 20%; */
 }
 #start__btn {
   width: 213px;
   height: 53px;
-  
+
   background-color: black;
   color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -139,39 +141,60 @@ text-align: center;
   font-family: "Inter";
   font-weight: 700;
   font-size: 16px;
-   
 }
 
-.str__btn{
-    margin: 0;
+.str__btn {
+  margin: 0;
   position: relative;
   align-content: center;
   left: 30%;
-
 }
 
-.ereader__img{
-    position: relative;
-    align-content: center;
-    left: 10%;
+.ereader__img {
+  position: relative;
+  align-content: center;
+  left: 10%;
 
-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.footer{
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-   
+.footer {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
 }
 
-.footer__items{
-    color: #fff;
+.footer__items {
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 20px;
   text-decoration: none;
   height: 20%;
-  
+}
+
+/* about styling */
+
+.abt__container {
+  display: flex;
+}
+
+#abtus {
+  width: 189px;
+  height: 72px;
+  left: 408px;
+  top: 269px;
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 72px;
+}
+#abtustxt {
+  font-family: "Lemonada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
 }
