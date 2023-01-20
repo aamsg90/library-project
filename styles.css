@@ -1,6 +1,7 @@
 .body {
   height: 1024px;
   background-color: #d9d9d9;
+  margin: 0;
 }
 
 .navbar {
@@ -21,28 +22,21 @@
   margin: 0 auto;
   padding: 0 50px;
 }
+#logo::first-letter{
+  color: #036de9;
+
+}
 
 .logo {
   height: auto;
   margin: auto;
-  /* position: relative; */
+  
 
   display: flex;
   align-items: center;
   cursor: pointer;
   font-size: 2rem;
   padding-left: 2rem;
-}
-.logo_e {
-  color: #036de9;
-  font-family: lemonada;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 64px;
-}
-
-.logo_reads {
   color: #ffffff;
   font-family: lemonada;
 
@@ -51,6 +45,7 @@
   font-size: 32px;
   line-height: 64px;
 }
+
 
 .nav-section {
   list-style: none;
@@ -117,7 +112,7 @@
   font-size: 20px;
   line-height: 64px;
   margin-left: 20%;
-  inline-size: 500px;
+ 
 }
 .home__text {
   inline-size: 500px;
@@ -159,22 +154,21 @@
 }
 
 .footer {
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
 }
 
 .footer__items {
   color: #fff;
   display: flex;
-  align-items: center;
+  list-style: none;
+  /* align-items: center;
   justify-content: center;
   width: 20px;
   text-decoration: none;
-  height: 20%;
+  height: 20%; */
 }
 
-/* about styling */
+/* about page styling */
 
 .abt__container {
   display: flex;
