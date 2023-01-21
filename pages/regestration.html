@@ -4,33 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>eREADS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Registeration</title>
+    <link rel="stylesheet" href="/regstyle.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
-
-  <body >
+  <body style="background-color: #ffffff">
     <!-- navbar section -->
     <nav class="navbar">
       <div class="navbar__container">
-        
         <!-- logo  -->
-        
+
         <a id="logo"><span>e</span>READS</a>
-        
+
         <!-- menu items -->
         <ul class="nav-section">
-          <li><a href="index.html" class="navbar__links" id="home-page">HOME</a></li>
+          <li>
+            <a href="index.html" class="navbar__links" id="home-page">HOME</a>
+          </li>
           <li>
             <a href="pages/about.html" class="navbar__links" id="about-page"
               >ABOUT</a
             >
           </li>
           <li>
-            <a href="/pages/regestration.html" class="navbar__links" id="regestration-page"
+            <a href="#REGESTRATION" class="navbar__links" id="regestration-page"
               >REGESTRATION</a
             >
           </li>
@@ -49,43 +49,31 @@
         </div>
         <!-- profile icon-->
         <div class="nav-profile">
-          <img src="assets/profile.png" alt="Profile" />
+          <img src="/assets/profile.png" alt="Profile" />
         </div>
       </div>
     </nav>
-    <!-- home page  -->
-    <div class="home__page">
-      <img id="home__img" src="assets/mainpic.jpg" alt="" />
-    </div>
 
-    <div class="home__bottom">
-      <div class="description">
-        <h1>Knoledge Starts Here</h1>
-
-        <p class="home__text">
-          Welcome to e-Reads! We are a digital resource for readers and
-          researchers, offering free access to a vast collection of books,
-          manuscripts, and other material.
-        </p>
-
-        <div class="str__btn">
-          <button id="start__btn">Start Reading</button>
-        </div>
+    <div class="Regbody__container">
+      <div id="reg__Form">
+        <h1>Welcome to eReads</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password"><br>
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password"><br>
+          <input type="submit" value="Submit">
+        </form>
       </div>
 
-      <div class="ereader__img">
-        <img src="assets/ereader.jpg" alt="" />
+      <div id="reg__pic">
+        <img src="/assets/Regmug.jpg" alt="" />
       </div>
     </div>
-    <footer class="footer">
-      <ul class="footer__items">
-        <li><a href="">Privacy |</a></li>
-        <li><a href="">Copyright |</a></li>
-        <li><a href="">Term of Use & Licences |</a></li>
-        <li><a href="">Authors |</a></li>
-        <li><a href="">Publishers</a></li>
-      </ul>
-    </footer>
 
     <script src="app.js"></script>
   </body>
