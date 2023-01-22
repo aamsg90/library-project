@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #DFDFDF;
+    /* background-color: #DFDFDF; */
 }
 
 .navbar {
@@ -27,7 +27,7 @@ body {
 }
 
 .navbar-links {
-    
+    display: flex;
    /* margin-left: 4rem; */
    
 }
@@ -113,8 +113,61 @@ body {
     .navbar-links.active {
         display: flex;
     }
+    .icons{
+        display: none;
+    }
+
+    .main__container{
+        height: 400px;
+    }
 }
 
+.main__container{
+    display: flex;
+    flex-direction: column;
+}
 
+.main{
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    /* width: 100%; */
+    background: no-repeat url(/assets/mic.jpg);
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+}
+.main h2 {
+    margin: 0;
+    padding-top: 5rem;
+    margin-left: 5rem;
+    /* padding: 50px; */
+    width: 30rem;
+    font-family: lemonada;
+    color: white;
+    position: relative;
+    font-size: 1.6vw;
+    
+}
 
+.icons {
+    background-color: black;
+    
+}
+
+.icons ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.icons ul li {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    list-style: none;
+    font-family: lemonada;
+    align-items: center;
+} 
 

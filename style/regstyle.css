@@ -75,16 +75,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: auto;
-    margin: auto; */
   }
 
   .Regbody__container {
 
     display: flex;
     justify-content: center;
-     /* flex-direction: row;
-    justify-content: flex-start; */
     align-items: center;
   }
 
@@ -94,8 +90,9 @@ body{
     width: 50%;
   }
 
-  form{
-    display: flex;
-    justify-content: center;
 
+  .footer__items {
+    color: #fff;
+    display: flex;
+    list-style: none;
   }

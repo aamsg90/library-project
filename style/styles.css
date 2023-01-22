@@ -23,7 +23,6 @@ body {
   padding: 0 50px;
 }
 
-
 #logo {
   display: flex;
   align-items: center;
@@ -36,7 +35,7 @@ body {
   line-height: 64px;
 }
 
-a span{
+a span {
   color: #036de9;
   font-size: 2rem;
 }
@@ -59,9 +58,9 @@ a span{
 }
 
 /* testing hover effect */
-.navbar__links:hover{
+.navbar__links:hover {
   color: red;
-  text-decoration: #036DE9 underline;
+  text-decoration: #036de9 underline;
 }
 
 .nav-search {
@@ -106,7 +105,6 @@ a span{
   font-size: 20px;
   line-height: 64px;
   margin-left: 20%;
- 
 }
 .home__text {
   inline-size: 500px;
@@ -187,13 +185,23 @@ a span{
   line-height: 48px;
 }
 
-
-
 /* registeration page  */
 .Regbody__container {
-
   display: inline;
-   /* flex-direction: row;
+  /* flex-direction: row;
   justify-content: flex-start; */
 }
 
+/* ebooks page */
+.main {
+  background: url(/assets/mic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div[class="main"] p {
+  font-family: lemonada; 
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 450px;
+}
