@@ -5,50 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABOUT</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/style/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500&display=swap"
       rel="stylesheet"/>
+      <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lemonada:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body >
     
-    <!-- navbar section -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        
-        <!-- logo  -->
-        
-        <a id="logo"><span>e</span>READS</a>
-        
-        <!-- menu items -->
-        <ul class="nav-section">
-          <li><a href="/index.html" class="navbar__links" id="home-page">HOME</a></li>
+     <!-- navbar section -->
+
+     <nav class="navbar">
+      <div class="ereads"><img src="/assets/eREADS.png" alt="" /></div>
+
+      <!-- hamburger menu -->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <!-- links -->
+      <div class="navbar-links">
+        <ul>
           <li>
-            <a href="pages/about.html" class="navbar__links" id="about-page"
-              >ABOUT</a
-            >
+            <a href="/index.html">HOME</a>
           </li>
           <li>
-            <a href="/pages/regestration.html" class="navbar__links" id="regestration-page"
-              >REGESTRATION</a
-            >
+            <a href="/pages/about.html">ABOUT</a>
           </li>
           <li>
-            <a href="/pages/e-books.html" class="navbar__links" id="ebooks-page"
-              >E-BOOKS</a
-            >
+            <a href="/pages/regestration.html">REGESTRATION</a>
           </li>
+          <li>
+            <a href="/pages/e-books.html">E-BOOKS</a>
+          </li>
+          <div class="search">
+            <!-- search and profile logo -->
+            <ul>
+              <li>
+                <input id="search" type="text" placeholder="Search..." />
+              </li>
+              <li>
+                <a href="#E-BOOKS"
+                  ><img src="/assets/profile.png" alt="Profile"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </ul>
-        <!-- search -->
-        <div class="nav-search">
-          <form>
-            <input id="search" type="text" placeholder="Search..." />
-            <!-- <button type="submit">Search</button> -->
-          </form>
-        </div>
-        <!-- profile icon-->
-        <div class="nav-profile">
-          <img src="/assets/profile.png" alt="Profile" />
-        </div>
       </div>
     </nav>
 
@@ -67,5 +74,5 @@
 
   </body>
 
-
+<script src="/app.js"></script>
 </html>
