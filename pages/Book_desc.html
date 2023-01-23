@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Description Page</title>
+    <link rel="stylesheet" href="/style/Book_desc.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lemonada:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar section -->
+
+    <nav class="navbar">
+      <div class="ereads"><img src="/assets/eREADS.png" alt="" /></div>
+
+      <!-- hamburger menu -->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <!-- links -->
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a href="/index.html">HOME</a>
+          </li>
+          <li>
+            <a href="/pages/about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="/pages/regestration.html">REGESTRATION</a>
+          </li>
+          <li>
+            <a href="/pages/e-books.html">E-BOOKS</a>
+          </li>
+          <div class="search">
+            <!-- search and profile logo -->
+            <ul>
+              <li>
+                <input id="search" type="text" placeholder="Search..." />
+              </li>
+              <li>
+                <a href="#E-BOOKS"
+                  ><img src="/assets/profile.png" alt="Profile"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+   
+    <div class="bottom__part">
+      <section id="categories">
+        <ul>
+          <li>
+            <h3>POPULAR READS</h3>
+            <hr />
+            <br />
+            <ul>
+              <li>Body Mind & Spirit</li>
+              <li>Business</li>
+              <li>Computers</li>
+              <li>Health & Fitness</li>
+              <li>History</li>
+              <li>Religion</li>
+              <li>Science</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <h3>FICTION</h3>
+            <hr />
+            <br />
+            <ul>
+              <li>Adult</li>
+              <li>Children & Youth</li>
+              <li>Crime Fiction</li>
+              <li>Fantasy</li>
+              <li>General Fiction</li>
+              <li>Literacy Fiction</li>
+              <li>Romance</li>
+              <li>Suspense/Thrillers</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <h3>NON-FICTION</h3>
+            <hr />
+            <br />
+            <ul>
+              <li>Architecture</li>
+              <li>Art</li>
+              <li>Autobiography</li>
+              <li>Biography</li>
+              <li>Business</li>
+              <li>Crafts & Hobbies</li>
+              <li>Current events</li>
+              <li>Drama</li>
+              <li>Education</li>
+              <li>Family</li>
+              <li>Food & Wine</li>
+              <li>Games</li>
+              <li>Humor</li>
+              <li>Language Arts</li>
+              <li>Law</li>
+              <li>Mathematics</li>
+              <li>Media</li>
+              <li>Music</li>
+              <li>Nature</li>
+              <li>Pets</li>
+              <li>Photography</li>
+              <li>Poetry</li>
+              <li>Social Science</li>
+              <li>Sports</li>
+              <li>Technology</li>
+              <li>Travel</li>
+              <li>True Crime</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section >
+
+        <h1>The War of the Worlds</h1>
+        <p>H.G. Wells</p>
+
+        <div id="books_container">
+          <div id="img_btns">
+            <img src="/assets/war.png" alt="" />
+            <button id="bksbtn">Read Now</button>
+            <button id="download">Download</button>
+          </div>
+
+          <div >
+                <p id="bksdescription"> Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                </p>
+                <br><br>
+                <hr width="82%">
+
+                <p id="reviews">Raiting and Reviews</p>
+                
+                <div class="stars">
+                    <span><img src="/assets/starf.svg" alt=""></span>
+                    <span><img src="/assets/starf.svg" alt=""></span>
+                    <span><img src="/assets/starf.svg" alt=""></span>
+                    <span><img src="/assets/starf.svg" alt=""></span>
+                    <span><img src="/assets/star.svg" alt=""></span>
+                </div>
+                <br>
+                <p style="margin-left: 2rem;">Reader’s Reviews</p>
+            </div>
+        </div>
+        
+      </section>
+    </div>
+    <footer class="footer">
+      <ul class="footer__items">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#"> | Copyright </a></li>
+        <li><a href="#">| Term of Use & Licences</a></li>
+        <li><a href="#">| Authors |</a></li>
+        <li><a href="#"> Publishers</a></li>
+      </ul>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
