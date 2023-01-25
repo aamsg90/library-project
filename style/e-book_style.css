@@ -232,6 +232,12 @@ h3{
     border: 6px solid #036DE9;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
 }
 
 .pagesnums ul{

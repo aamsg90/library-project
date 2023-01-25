@@ -196,9 +196,10 @@ body {
 .footer__items {
  
   display: flex;
-  list-style: none;
-  display: flex;
-  justify-content: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    list-style: none;
   /* align-items: center;
   justify-content: center;
   width: 20px;
@@ -206,6 +207,11 @@ body {
   height: 20%; */
 }
 
+.footer__items a{
+  text-decoration: none;
+  color: #000000;
+  font-family: Inter;
+}
 /* about page styling */
 
 .abt__container {

@@ -137,7 +137,20 @@ body {
 
 
   .footer__items {
+    display: flex;
+    justify-content: center;
     color: #fff;
     display: flex;
     list-style: none;
+    /* align-items: center;
+    justify-content: center;
+    width: 20px;
+    */
+   
+  }
+
+  .footer__items a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Inter;
   }
