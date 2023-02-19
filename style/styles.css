@@ -79,13 +79,23 @@ body {
   background-color: white;
   border-radius: 10px;
 }
+@media (min-width: 701px) and (max-width: 1000px) {
+.search {
+display: none;
+}
+#ereader__img {
+  display: none;
+}
+}
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .navbar {
       flex-direction: column;
       align-items: flex-start;
   }
-
+  #ereader__img {
+    display: none;
+  }
   .toggle-button {
       display: flex;
   }
@@ -113,31 +123,39 @@ body {
   .navbar-links.active {
       display: flex;
   }
-  .icons{
-      display: none;
+  .home__bottom {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+    padding-left: 0;
   }
-
-  .main__container{
-      height: 400px;
-  }
+  
 }
 
-.home__page {
-  /* background-image: url(assets/mainpic.jpg); */
-  /* width: 100%; */
-  /* height: 62%; */
-  /* background-size: cover; */
-}
+
+
 #home__img {
   width: 100%;
   /* height: 483px; */
 }
 
 .home__bottom {
+  width: 100%;
   display: flex;
   background-color: #d9d9d9;
-  height: 492px;
+  /* height: 492px; */
+  flex-wrap: wrap;
+  align-items: center;
 }
+
+.ereader__img {
+  display: flex;
+  flex-wrap: wrap;
+  left: 10%;
+  border-radius: 10px;
+}
+
 
 .description {
   font-family: "Lemonada";
@@ -257,3 +275,46 @@ div[class="main"] p {
   padding-top: 100px;
   padding-bottom: 450px;
 }
+
+
+/* @media only screen and (max-width: 600px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .toggle-button {
+      display: flex;
+  }
+
+  .navbar-links {
+      display: none;
+      width: 100%;
+  }
+
+  .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbar-links ul li {
+      text-align: center;
+  }
+
+  .navbar-links ul li a {
+      padding: .5rem 1rem;
+      font-family: Inter;
+    
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+  .icons{
+      display: none;
+  }
+
+  .main__container{
+      height: 400px;
+  }
+} */
